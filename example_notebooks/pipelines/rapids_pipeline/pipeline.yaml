@@ -1,0 +1,8 @@
+pipeline:
+  name: "Getting Started Pipeline"
+  job_type: "gpu"  
+  tasks:
+  - name: "RAPIDs Notebook"
+    type: "jupyter notebook"
+    notebook_path: "mlops_demo/getting_started.ipynb"
+    notebook_output_path: "mlops_demo/getting_started_output.ipynb"
