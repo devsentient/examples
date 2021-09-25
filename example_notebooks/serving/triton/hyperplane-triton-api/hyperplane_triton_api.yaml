@@ -1,0 +1,8 @@
+pipeline:
+  name: "Hyperplane Triton API"
+  job_type: "basic"  
+  tasks:
+  - name: "hyperplane triton flask api"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "hyperplane-triton-api/start_server.sh"
