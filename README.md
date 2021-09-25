@@ -13,9 +13,7 @@ Also, we would like to list here interesting content created by the community. I
 | [Ray Tune with MLFlow](https://github.com/devsentient/examples/blob/main/example_notebooks/training/ray_mlflow.ipynb) | Simple Ray Tune example wth MLFlow Tracking |
 | [Ray Tune Bayesian Optimization](https://github.com/devsentient/examples/blob/main/example_notebooks/training/ray_tune_demo.ipynb) | A collection of Ray Tune scheduler examples |
 | [Speed up inference on large data with DASK ](https://github.com/devsentient/examples/blob/main/example_notebooks/inference/batch_inference) | Advance example on speed inference with DASK by preload large model to DASK workers |
-| [Triton serving model prepration ](https://github.com/devsentient/examples/tree/main/example_notebooks/serving/triton) | Convert Pytorch Keras sklearn and xgboost model checkpoints for Triton serving |
+| [Triton model prepration ](https://github.com/devsentient/examples/tree/main/example_notebooks/serving/triton) | Convert Pytorch Keras sklearn and xgboost model checkpoints for Triton serving |
 | [Hyperplane Triton service App ](https://github.com/devsentient/examples/tree/main/example_notebooks/serving/triton) | Triton client in a flask APP to be served as a Hyperplane service|
-| [Simple pipeline ](https://github.com/devsentient/examples/tree/main/example_notebooks/pipelines/a_simple_pipelinen) | A basic pipeline to automate a jupyter notebook with parameterization |
-| [graphql within jupyter ](https://github.com/devsentient/examples/blob/main/example_notebooks/utils/submit_graphql_with_python.ipynb) | Submit pipeline jobs using graphql queries within jupyter a notebook
-
-
+| [Simple pipeline job ](https://github.com/devsentient/examples/tree/main/example_notebooks/pipelines/a_simple_pipelinen) | A basic pipeline to automate a jupyter notebook with parameterization |
+| [GraphQL within jupyter ](https://github.com/devsentient/examples/blob/main/example_notebooks/utils/submit_graphql_with_python.ipynb) | Submit pipeline jobs using graphql queries within jupyter a notebook
