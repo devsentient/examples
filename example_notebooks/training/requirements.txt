@@ -1,0 +1,10 @@
+tensorflow
+torch
+tensorboardX
+tensorboard
+transformers
+tf2onnx
+mlflow
+boto3
+tensorflow_hub
+tensorflow_text

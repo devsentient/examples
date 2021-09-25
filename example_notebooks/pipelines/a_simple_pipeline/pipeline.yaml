@@ -1,0 +1,8 @@
+pipeline:
+  name: "data prep pipeline"
+  job_type: "basic"  
+  tasks:
+  - name: "Dask groupby data"
+    type: "jupyter notebook"
+    notebook_path: "pipeline_job/dask_group_sort.ipynb"
+    notebook_output_path: "dask_group_sort_output.ipynb"
