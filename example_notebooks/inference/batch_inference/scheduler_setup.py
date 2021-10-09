@@ -68,14 +68,6 @@ def load_model_from_pretrained(model_name):
 
     return loaded_models
 
-# local_model_path = '/root/model'
-# remote_file_path = "s3://d2v-tmp/demo/bach_inference/model"
-# remote_file_path = "gs://pipeline_data/demo/bach_inference/model.zip"
-# download_from_cloud(local_model_path, remote_file_path)
-# loaded_models = {}
-# loaded_models = load_models(local_model_path)
-
-
 loaded_models = {}
 model_name = "distilbert-base-uncased"
 loaded_models = load_model_from_pretrained(model_name)
