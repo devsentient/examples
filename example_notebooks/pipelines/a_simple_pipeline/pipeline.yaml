@@ -4,5 +4,5 @@ pipeline:
   tasks:
   - name: "Dask groupby data"
     type: "jupyter notebook"
-    notebook_path: "pipeline_job/dask_group_sort.ipynb"
+    notebook_path: "example_notebooks/pipelines/a_simple_pipeline/dask_group_sort.ipynb"
     notebook_output_path: "dask_group_sort_output.ipynb"

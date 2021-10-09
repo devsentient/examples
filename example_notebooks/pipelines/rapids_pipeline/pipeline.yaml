@@ -4,5 +4,5 @@ pipeline:
   tasks:
   - name: "RAPIDs Notebook"
     type: "jupyter notebook"
-    notebook_path: "mlops_demo/getting_started.ipynb"
-    notebook_output_path: "mlops_demo/getting_started_output.ipynb"
+    notebook_path: "example_notebooks/pipelines/rapids_pipeline/rapids_data_processing.ipynb"
+    notebook_output_path: "rapids_data_processing_output.ipynb"
