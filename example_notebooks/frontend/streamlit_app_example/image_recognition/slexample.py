@@ -5,6 +5,7 @@ import streamlit as st
 from PIL import Image
 import json
 import numpy as np
+import pandas as pd
 import base64
 import argparse
 import time
@@ -15,7 +16,7 @@ def sent_infer_request_in_cluster(img):
     ## As the services are all internally authenticated, no need to pass JWT tokens 
     endpoint = "http://image_recognition-inference-endpoint:8787/infer"
     data = {
-        "image": img, 
+        "image": img
     }
     headers = {
         "Content-Type": "application/json",
@@ -40,7 +41,7 @@ def sent_infer_request_in_cluster(img):
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 # defines an h1 header
-st.title("Process some images")
+st.title("Image Recognition Cats Dogs Fruits")
 
 # displays a file uploader widget
 image_upload = st.file_uploader("Choose an image")
@@ -60,3 +61,11 @@ if st.button("Get annotation"):
     
         except: 
             st.text("Could not process image")
+            
+## add some other steamlit components
+df = pd.DataFrame(
+     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+     columns=['lat', 'lon'])
+
+st.map(df)
+
