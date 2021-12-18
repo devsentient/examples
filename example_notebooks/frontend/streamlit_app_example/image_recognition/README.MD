@@ -1,5 +1,6 @@
 This is a skeleton App for building a streamlit frontend for a Hyperplane served model. 
-![sample Frontend](sample_frontend.png)
+<img src="sample_frontend.png" data-canonical-src="sample_frontend.png" width="200" height="200" />
+
 ## How to use
 - Streamlit can be used when you need to quickly expose a frontend for your Hyperplane service
 - To get started, replace the dummy function in `sent_infer_request_in_cluster` in skexample.py with your real request function 
