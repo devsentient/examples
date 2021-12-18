@@ -1,5 +1,5 @@
 This is a skeleton App for building a streamlit frontend using a Hyperplane served model. 
-## Use Guide
+## How to use
 - Streamlit can be used when you need to quickly expose a frontend for your Hyperplane service
 - To get started, replace the dummy function in `sent_infer_request_in_cluster` in skexample.py with your real request function 
 - Copy the image_recognition folder to your github repo (and change it to the name that makes sense to your App) 
