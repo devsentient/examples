@@ -1,7 +1,7 @@
 This is a skeleton App for building a streamlit frontend for a Hyperplane served model.   
 ## sample frontend   
 <!-- ![sample Frontend](sample_frontend.png | width=100) -->
-<img src="sample_frontend.png" data-canonical-src="sample_frontend.png" width="100" height="209" />
+<img src="sample_frontend.png" data-canonical-src="sample_frontend.png" width="250" height="522" />
 
 ## How to use
 - Streamlit can be used when you need to quickly expose a frontend for your Hyperplane service
