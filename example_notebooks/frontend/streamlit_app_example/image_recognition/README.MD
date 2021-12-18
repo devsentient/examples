@@ -7,4 +7,4 @@ This is a skeleton App for building a streamlit frontend using a Hyperplane serv
 - Choose the service URL prefix for your Frontend App, this will be the URL of your frontend. Assume it's `my_awesome_frontend`
 - After you hit the create button of the service and the service is up, you can then go to  `https://yourdomain.hyperplane.dev/my_awesome_frontend` to see the frontend 
 - Streamlit has python APIs to build frontend components such as boxes, buttons, radio inputs and so on. [Read more about Streamlit](https://docs.streamlit.io/)
-- Full documentation for Streamlit please see the steamlit Documentation page. 
+- Full documentation for streamlit please see the steamlit Documentation page. 
