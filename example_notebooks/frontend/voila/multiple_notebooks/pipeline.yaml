@@ -1,0 +1,8 @@
+pipeline:
+  name: "voila demo"
+  job_type: "experimental"  
+  tasks:
+  - name: "voila serve"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "example_notebooks/frontend/voila/multiple_notebooks/run.sh"
