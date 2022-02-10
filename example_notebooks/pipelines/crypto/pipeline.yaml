@@ -1,0 +1,8 @@
+pipeline:
+  name: "crypto trades monitoring App"
+  tasks:
+  - name: "watch_trade"
+    type: "jupyter notebook"
+    notebook_path: "example_notebooks/pipelines/crypto/watch_ob_multi.ipynb"
+    notebook_output_path: "output.ipynb"
+    depends_on: []
