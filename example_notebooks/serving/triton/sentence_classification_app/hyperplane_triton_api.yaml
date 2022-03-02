@@ -1,0 +1,7 @@
+pipeline:
+  name: "Hyperplane sentence classificaton API"
+  tasks:
+  - name: "start Flask api"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "triton_endpoints/sentence_classification_app/start_server.sh"

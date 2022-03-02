@@ -1,0 +1,8 @@
+pipeline:
+  name: "Streamlit test"
+  job_type: "basic"  
+  tasks:
+  - name: "st text"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "frontend/sentence_classification/run.sh"
