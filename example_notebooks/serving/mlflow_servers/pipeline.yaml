@@ -5,4 +5,4 @@ pipeline:
   - name: "mlflow"
     type: "bash script"
     port: 8787
-    bash_script_path: "example_notebooks/serving/mlflow_servers"
+    bash_script_path: "example_notebooks/serving/mlflow_servers/run.sh"
