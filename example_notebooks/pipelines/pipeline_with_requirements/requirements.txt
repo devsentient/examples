@@ -1,0 +1,6 @@
+nc-time-axis==1.2.0
+geopandas==0.10.2
+rtree==0.9.7
+zarr==2.6.1
+xclim==0.22.0
+xarray-spatial==0.1.2

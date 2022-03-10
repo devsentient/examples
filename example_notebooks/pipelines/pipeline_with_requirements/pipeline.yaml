@@ -1,0 +1,16 @@
+pipeline:
+  name: "Example pipeline steps"
+  requirements: "pipelines/pipeline_with_requirements/requirements.txt"
+  tasks:
+  - name: "step1"
+    type: "jupyter notebook"
+    notebook_path: "pipelines/pipeline_with_requirements/step1.ipynb"
+    notebook_output_path: "step1_output.ipynb"
+  - name: "step2"
+    type: "jupyter notebook"
+    notebook_path: "pipelines/pipeline_with_requirements/step2.ipynb"
+    notebook_output_path: "step2_output.ipynb"
+  - name: "step3"
+    type: "jupyter notebook"
+    notebook_path: "pipelines/pipeline_with_requirements/step3.ipynb"
+    notebook_output_path: "step3_output.ipynb"

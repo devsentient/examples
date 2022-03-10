@@ -1,0 +1,22 @@
+pipeline:
+  name: "Example pipeline steps"
+  tasks:
+  - name: "step1"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step1.ipynb"
+    notebook_output_path: "step1_output.ipynb"
+  - name: "step2"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step2.ipynb"
+    notebook_output_path: "step2_output.ipynb"
+    depends_on: ["step1"]
+  - name: "step3"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step3.ipynb"
+    notebook_output_path: "step3_output.ipynb"
+    depends_on: ["step1"]
+  - name: "step4"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step4.ipynb"
+    notebook_output_path: "step4_output.ipynb"
+    depends_on: ["step1"]

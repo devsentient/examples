@@ -1,0 +1,12 @@
+pipeline:
+  name: "Example pipeline steps"
+  tasks:
+  - name: "step1"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step1.ipynb"
+  - name: "step3"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step3.ipynb"
+  - name: "step4"
+    type: "jupyter notebook"
+    notebook_path: "fake_pipeline/step6.ipynb"
