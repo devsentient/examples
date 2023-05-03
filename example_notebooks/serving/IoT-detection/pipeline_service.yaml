@@ -1,0 +1,7 @@
+pipeline:
+  name: "run inference app"
+  tasks:
+  - name: "start App for IoT event prediction"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "IoT-detection/run.sh"
