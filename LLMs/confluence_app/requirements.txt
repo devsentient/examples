@@ -1,0 +1,9 @@
+langchain==0.0.189
+chromadb==0.3.25
+openai==0.27.6
+pytesseract==0.3.10
+beautifulsoup4==4.12.2
+atlassian-python-api==3.38.0
+tiktoken==0.4.0
+streamlit==1.23.1
+lxml==4.9.2
