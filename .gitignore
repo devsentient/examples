@@ -131,3 +131,6 @@ LLMs/confluence_app/=0.0.19
 LLMs/confluence_app/.chroma/*
 LLMs/confluence_app/db/*
 LLMs/confluence_app/chroma_db/*
+
+## Venvs in the folder
+*.venv*

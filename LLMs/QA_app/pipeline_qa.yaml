@@ -1,0 +1,7 @@
+pipeline:
+  name: "QA demo"
+  tasks:
+  - name: "QA app"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "LLM/QA_app/run_qa.sh"
