@@ -5,7 +5,7 @@ cd "$PROJECT_DIR"
 # Set the name of the virtual environment
 VENV_NAME=.venv
 
-Check if the virtual environment exists
+## Check if the virtual environment exists
 if [ ! -d "$VENV_NAME" ]; then
   # Create the virtual environment
   python -m venv "$VENV_NAME"
@@ -19,6 +19,6 @@ export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 export STREAMLIT_RUNONSSAVE=True
 
 
-streamlit run streamlit_app_blog.py --server.port 8787 --browser.serverAddress localhost 
+streamlit run streamlit_app_blog.py --server.port 8787 --browser.serverAddress localhost --server.fileWatcherType none
 
 deactivate
