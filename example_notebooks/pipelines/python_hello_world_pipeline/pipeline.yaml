@@ -1,0 +1,6 @@
+pipeline:
+  name: "Hello World with Python"
+  tasks:
+    - name: "Run Python Script"
+      type: "vscode notebook"
+      py_path: "example_notebooks/pipelines/python_hello_world_pipeline/hello_world.py"
