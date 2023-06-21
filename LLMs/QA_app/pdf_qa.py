@@ -29,11 +29,13 @@ class PdfQA:
     # and the same model instance can be used across multiple user sessions
     @classmethod
     def create_instructor_xl(cls):
-        return HuggingFaceInstructEmbeddings(model_name=EMB_INSTRUCTOR_XL, model_kwargs={"device": "cuda"})
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        return HuggingFaceInstructEmbeddings(model_name=EMB_INSTRUCTOR_XL, model_kwargs={"device": device})
     
     @classmethod
     def create_sbert_mpnet(cls):
-        return HuggingFaceEmbeddings(model_name=EMB_SBERT_MPNET_BASE, model_kwargs={"device": "cuda"})
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        return HuggingFaceEmbeddings(model_name=EMB_SBERT_MPNET_BASE, model_kwargs={"device": device})    
     
     @classmethod
     def create_flan_t5_xxl(cls, load_in_8bit=False):
