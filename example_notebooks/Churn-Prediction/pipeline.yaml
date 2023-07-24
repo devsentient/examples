@@ -3,5 +3,5 @@ pipeline:
   tasks:
   - name: "train"
     type: "jupyter notebook"
-    notebook_path: "Churn-Prediction/train.ipynb"
-    notebook_output_path: "train_output.ipynb"
+    notebook_path: "Churn-Prediction/inference.ipynb"
+    notebook_output_path: "inference_output.ipynb"
