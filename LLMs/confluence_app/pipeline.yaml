@@ -4,4 +4,4 @@ pipeline:
   - name: "QA app"
     type: "bash script"
     port: 8787
-    bash_script_path: "LLM/confluence_app/run.sh"
+    bash_script_path: "LLMs/confluence_app/run.sh"
