@@ -1,0 +1,8 @@
+pipeline:
+  name: "MultiturnRAG"
+  requirements: "milvus-demo/chatbot/service/requirements.txt"
+  tasks:
+  - name: "Muliturn RAG demo"
+    type: "bash script"
+    port: 8787
+    bash_script_path: "milvus-demo/chatbot/service/run.sh"

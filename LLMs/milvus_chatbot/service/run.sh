@@ -1,0 +1,1 @@
+streamlit run milvus-demo/chatbot/service/app.py --server.port 8787 --browser.serverAddress localhost
