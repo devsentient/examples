@@ -1,0 +1,7 @@
+pipeline:
+  name: "Churn_Prediction_Pipeline"
+  tasks:
+  - name: "train"
+    type: "jupyter notebook"
+    notebook_path: "Churn-Prediction/inference.ipynb"
+    notebook_output_path: "inference_output.ipynb"
