@@ -1,8 +1,7 @@
 pipeline:
   name: "IoT_pipeline"
-  requirement: "IoT-detection/requirements.txt"
+  requirements: "IoT-detection/requirements.txt"
   tasks:
   - name: "inference"
     type: "jupyter notebook"
     notebook_path: "IoT-detection/inference.ipynb"
-    notebook_output_path: "inference_output.ipynb"
